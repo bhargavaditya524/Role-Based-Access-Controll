@@ -1,4 +1,12 @@
 Role Based Access Control used in coaching management
+### Zoom Class integretion
+dotnet user-secrets set "Zoom:Token": "*" --project .\RBACSIX\RBACSIX.csproj
+ 
+dotnet user-secrets set  "Zoom:ClientSecret": "*" --project .\RBACSIX\RBACSIX.csproj
+
+dotnet user-secrets set  "Zoom:ClientId": "*" --project .\RBACSIX\RBACSIX.csproj
+
+dotnet user-secrets set "Zoom:AccountId": "*" --project .\RBACSIX\RBACSIX.csproj
 
 
 ## Password recovery email configuration
